@@ -1,0 +1,40 @@
+.btn, .btn-outline, .btn-secondary {
+  background-color: #30009C;
+  color: white;
+  border: none;
+  padding: 32px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  width: 778px;
+  height: 56px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #30009C;
+  border-color: #30009C;
+  border: 1px solid #30009C;
+}
+
+.btn:hover {
+  background-color:transparent;
+  border: 2px solid #2B008C;
+  transition: 0.2s;
+}
+
+.btn-outlin:hover {
+  background-color: #30009C;
+  color: white;
+  border-color: transparent;
+}
+
+.btn:active {
+    background-color: #26007D;
+    border: none;
+    transition: 0.4s;
+}
+
+
