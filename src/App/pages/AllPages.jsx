@@ -1,13 +1,10 @@
-import './App.css';
-import AllPages from './pages/AllPages';
-import { Login } from './pages/Login';
+import '../App.css'
+import { HeaderNavigation } from '../components/Header/HeaderNavigation';
 
-
-export function App() {
+export default function AllPages() {
   return (
     <div>
-      <AllPages />
-      <Login />
+      <HeaderNavigation />
     </div>
   );
 }
