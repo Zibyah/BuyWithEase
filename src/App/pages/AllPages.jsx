@@ -1,10 +1,10 @@
-import '../App.css'
-import { HeaderNavigation } from '../components/Header/HeaderNavigation';
+import '../App.css';
+import { Landing } from './Landing';
 
 export default function AllPages() {
   return (
     <div>
-      <HeaderNavigation />
+      <Landing />
     </div>
   );
 }

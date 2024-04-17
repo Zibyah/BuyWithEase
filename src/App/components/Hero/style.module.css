@@ -1,0 +1,40 @@
+.hero {
+    height: 800px;
+    background-image: url("../../assets/Images/Rectangle\ 4328.png");
+    background-size: 1280px;
+    padding: 2 var(--app-block-padding);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+    background-color: white;
+}
+
+.hero .title, .text {
+    color: white;
+    width: 435px;
+    padding-top: 8rem;
+    font-size: 75px;
+    font-weight: bold;
+    padding-left: 12rem;
+}
+
+.hero .text {
+    font-size: 20px;
+    padding-top: 0;
+    font-weight: 500;
+}
+
+.hero .title span {
+    color: #30009C;
+}
+
+.hero .button {
+    width: 200px;
+    height: 40px;
+    font-weight: 500;
+    margin-left: 12rem;
+}
+
+.button:hover {
+    background-color: white;
+}

@@ -41,8 +41,9 @@ export const Login = () => {
 
     return <section className={style.login}>
         <div className={style.left}>
+        <Image className={style.image} />
             <Logo className={style.logo} useWhite={false} />
-            <Image className={style.image} />
+            
         </div>
         
         <div className={style.bodytext}>
@@ -53,20 +54,29 @@ export const Login = () => {
             <p>Good to have you back! Let’s make set you in.</p>
             <br />
             <div className={style.field}>
-                    <CustomInput name="username" onChange={(event)=>setForm({...form, username: event.target.value })} placeholder= {'Enter your email adress'} label= {'Email'}/>
+                    {/* <label>Email</label> */}
+                <label className={style['input-label']}>{'Email'}</label>
+                <CustomInput name="username" onChange={(event)=>setForm({...form, username: event.target.value })} placeholder= {'Enter your email adress'}>
+                </CustomInput>
+                <br />
                 {/* <CustomInput placeholder={'Enter your email address or full name'} label={'Email'} /> */}
-                    {/* <CustomInput onChange={(event)=> setForm({...form, password: event.target.value })} placeholder= "Password" type="password" /> */}
-                    <CustomInput placeholder={'Enter your password'} label={'Password'} />
+                
+                <label className={style['input-label']}>{'Password'}</label>
+                <div className={style['password-label']}>
+                <CustomInput onChange={(event)=> setForm({...form, password: event.target.value })} placeholder= "Password" type="password" />
+                
+                </div>
+                    {/* <CustomInput  label={'Password'} placeholder={'Enter your password'}  /> */}
                 <div className={style.rememberbox}>
                     <input className={style.inputbox} type="checkbox" placeholder="Remember me" />
-                    <p>Remember me</p>
+                    <p className={style.label}>Remember me</p>
                 </div>  
             </div>
         
             <div className={style.button}>
                 <CustomButton onClick={handleLogin}> Login </CustomButton>
                 <br />
-                <p>Forgot password?</p>
+                <a href="/forgot-password">Forgot password?</a>
                 <br />
                 <br />
                 <div className={style.divider}>

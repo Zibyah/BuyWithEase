@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 var(--app-block-padding);
+}
+
+.logo {
+    width: 40px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #B7ACC9;
+}
+
+.menu ul li a:active {
+    color: #673BB7;
+}
+
+.menu ul li a:hover {
+    color: #673BB7;
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+}
+
+.signup, .login {
+    width:124px;
+    height: 50px;
+}
+
+.menu .active {
+    color: #673BB7;
+}

@@ -1,8 +1,23 @@
-.input-field {
+.input {
     display: block;
+    width: 436px;
  }
 
-.input-field label, .input-field input {
+.input .input-field {
+    border-radius: 4px;
     display: block;
-    width: 486px;
+    box-shadow: 0 0 0 1.3px #878787;
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    padding-left: 18px;
+    border: none;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.icon {
+    position: absolute;
+    top: 46.5%;
+    right: 15%;
 }
