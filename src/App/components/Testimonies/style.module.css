@@ -1,0 +1,30 @@
+.testimonies {
+    background-color: #985EFF;
+    display: flex;
+    padding: var(--app-block-padding);
+    flex-direction: column;
+    padding: 25px;
+}
+
+.testimonies .title {
+    color: white;
+    font-size: 40px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonies .description {
+    color: #DCDCDC;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.testimonies .list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 var(--app-block-padding);
+    align-items: center;
+}

@@ -12,7 +12,7 @@ export function Logo(props) {
             </a>
         )
     } else {
-        const myImage = props.useBlack ? LogoWhite : LogoBlack
+        const myImage = props.useBlack ? LogoBlack : LogoWhite
         return (
             <a href='#/dasboard' className= {style.logo}>
                 <img src={myImage} />   

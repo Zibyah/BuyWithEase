@@ -42,7 +42,7 @@ export const Login = () => {
     return <section className={style.login}>
         <div className={style.left}>
         <Image className={style.image} />
-            <Logo className={style.logo} useWhite={false} />
+            <Logo className={style.logo} useWhite />
             
         </div>
         
