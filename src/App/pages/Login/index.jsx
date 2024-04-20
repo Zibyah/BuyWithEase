@@ -74,7 +74,7 @@ export const Login = () => {
             </div>
         
             <div className={style.button}>
-                <CustomButton onClick={handleLogin}> Login </CustomButton>
+                <CustomButton className={style.loginbutton} onClick={handleLogin}> Login </CustomButton>
                 <br />
                 <a href="/forgot-password">Forgot password?</a>
                 <br />

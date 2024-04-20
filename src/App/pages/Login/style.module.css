@@ -1,3 +1,4 @@
+
 .login {
     display: flex;
     justify-content: space-between;
@@ -75,9 +76,15 @@
     align-items: center;
 }
 
-.login .facebook, .google {
+.login .facebook, .google, .loginbutton {
     gap: 10px;
+    width: 486px;
+    height: 56px;
 }   
+
+.loginbutton {
+    gap: 0;
+}
 
 .login .FacebookLogo, .GoogleLogo {
     width: 20px;
@@ -98,7 +105,7 @@
 }
 
 .divider span {
-    background-color: #F2E7FE;
+    background-color: white;
     padding: 5px 15px;
 }
 

@@ -1,0 +1,53 @@
+.wrapper {
+    padding: 0 var(--app-block-padding);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding-bottom: 64px;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 5px 5px 5px #0000001c;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+}
+
+.text .link {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.description, .link {
+    width: 496px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.image {
+    width: 500px;
+    height: 800px;
+}
+
+.button {
+    width: 240px;
+    height: 60px;
+}

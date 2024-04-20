@@ -30,7 +30,7 @@ export const LandingPageHeader = () => {
         </div>
         <div className="button">
                 <CustomButton className="signup" onClick={()=>{}}>Sign Up</CustomButton>
-                <CustomButton className="login" onClick={()=>{}} type="outline">Login</CustomButton>
+                <CustomButton className="login" onClick={()=>{}} type="outline"><a href="/">Login</a></CustomButton>
         </div>
     </header>)
 }
