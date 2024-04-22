@@ -1,13 +1,13 @@
 import './App.css';
 import AllPages from './pages/AllPages';
 import { Login } from './pages/Login';
+import Signup from './pages/Signup'
 
 
 export function App() {
   return (
     <div>
-      <AllPages />
-      <Login />
+      <Signup />
     </div>
   );
 }
