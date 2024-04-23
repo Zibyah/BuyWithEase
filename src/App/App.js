@@ -1,6 +1,7 @@
 import './App.css';
 import AllPages from './pages/AllPages';
 import { Login } from './pages/Login';
+import Signup from './pages/Signup'
 
 export function App() {
     const isLogin = new URLSearchParams(window.location.search)
@@ -10,7 +11,11 @@ export function App() {
     
   return (
     <div>
+<<<<<<< HEAD
       <Login />
+=======
+      <Signup />
+>>>>>>> 0309ac800b54c56f5792198285d4275fd590fa40
     </div>
   );
 }

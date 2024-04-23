@@ -1,0 +1,29 @@
+.wrapper {
+    position: relative;
+}
+.wrapper, .wrapper label, .wrapper input {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-family: "Inter", sans-serif;
+}
+
+.wrapper label {
+    font-weight: 600;
+    padding-top: 4px;
+}
+
+.wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 1.3px #878787;
+    padding: 10px;
+    max-width: calc(100% - 20px);
+    height: calc(48px - 20px);
+}
+.icon {
+    position: absolute;
+    top: 60%;
+    right: 16px; 
+}

@@ -1,11 +1,13 @@
+import { Link, Outlet } from "react-router-dom";
+
 export const HeaderNavigation = (props) => {
-    return (
+    return (<>
             <ul className={props.className}>
                 <li>
-                    <a className="active" href="#/Home">Home</a>
+                    <Link className="active" to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="#/Product">Product</a>
+                    <Link to="product" reloadDocument>Product</Link>
                 </li>
                 <li>
                     <a href="#/Testimonies">Testimonies</a>
@@ -18,5 +20,7 @@ export const HeaderNavigation = (props) => {
                     <a href="#/Support">Support</a>
                 </li>
             </ul>
+        <Outlet />
+            </>
     )
 }

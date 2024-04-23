@@ -17,10 +17,10 @@ export const Footer = () => {
                 Get a weekly dose of design inspiration, secrets, tips,
                 <br /> trends, and banter in your inbox.</p>
             <div className={style.button}>
-                <CustomButton className={style.email} onClick={()=>{}} type="secondary">
-                    <EmailIcon className={style.EmailIcon}/>
-                    Email address
-                </CustomButton>
+                <div>
+                    <EmailIcon className={style.icon}/>
+                    <input className={style.input} type="email"  placeholder='Email address' />
+                </div>
                 <CustomButton type="outline" onClick={()=>{}} className={style.subsribe}>Subscribe</CustomButton>
             </div>
             <div className={style.contact}>
