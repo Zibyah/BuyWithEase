@@ -7,6 +7,7 @@ import { Hero } from "../../components/Hero"
 import { ProductsCollection } from "../../components/ProductsCollections"
 import { TestimoniesSection } from "../../components/Testimonies"
 import { Stories } from "../../components/stories"
+import React from "react"
 
 export const Landing = () => {    
     return (

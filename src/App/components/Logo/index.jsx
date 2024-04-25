@@ -2,6 +2,7 @@ import LogoBlack from '../../assets/Images/Logo.svg';
 import LogoWhite from '../../assets/Images/logo-white.svg';
 import style from "./style.module.css";
 
+
 export function Logo(props) {
     // props useWhite
     if (props.useWhite) {

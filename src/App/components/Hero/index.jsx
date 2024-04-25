@@ -1,6 +1,7 @@
 import style from './style.module.css';
 import { CustomButton } from '../Buttons';
 
+
 export const Hero = () => {
     return (
         <div className={style.hero}>

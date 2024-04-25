@@ -4,6 +4,8 @@ import {ReactComponent as SearchIcon} from "../../assets/Icons/search.svg";
 import { CustomButton } from "../../components/Buttons";
 import { BagProductsList } from "../../components/BagProducts";
 import { ClothProductsList } from "../../components/ClothesProduct";
+import { JewelryProducts } from "../../components/Jewelry";
+import { MakeupProducts } from "../../components/Makeup";
 
 export const Product = () => {
     function useState(initialValue) {
@@ -35,6 +37,8 @@ export const Product = () => {
             <div className={style.product}>
                 <BagProductsList />
                 <ClothProductsList />
+                <JewelryProducts />
+                <MakeupProducts />
             </div>
         </section>
     )

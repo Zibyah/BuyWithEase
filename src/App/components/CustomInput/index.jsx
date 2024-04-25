@@ -1,7 +1,7 @@
 import React from "react"
 import style from './style.module.css'
-import { FiEye, FiEyeOff } from "react-icons/fi";
-
+import { ReactComponent as EyeOff } from "../../assets/Icons/eyeIcon.svg";
+import { ReactComponent as EyeOn } from "../../assets/Icons/eyeiconopen.svg";
 
 const CustomInput = ({ label, ...props }) => {
   const [show, setShow] = React.useState(false);
@@ -18,7 +18,7 @@ const CustomInput = ({ label, ...props }) => {
           <input {...props} type={type} /> {/* Updated type */}
           {props.type === 'password' && (
               <div onClick={handleIconToggle} className={style.icon}>
-                  {!show ? <FiEyeOff size={'1rem'} /> : <FiEye size={'1rem'} />}
+                  {!show ? <EyeOff size={'1rem'} /> : <EyeOn size={'1rem'} />}
               </div>
           )}
       </div>

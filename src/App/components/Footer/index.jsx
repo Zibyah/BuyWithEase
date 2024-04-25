@@ -43,7 +43,9 @@ export const Footer = () => {
                     }
                 </div>
                 <p className={style.copy}>© 2024 .Powered by BuyWithEase. All Rights Reserved.</p>
-                
+            </div>
+            <div className={style.top}>
+                <a href="#top-page">Go to top</a>
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-export const signupUser = async (username, password) => {
+export const signupUser = async (username, password, retypepassword) => {
     const resp = await
         fetch('https://dummyjson.com/auth/login', {
             method: 'POST',
@@ -6,6 +6,7 @@ export const signupUser = async (username, password) => {
             body: JSON.stringify({
               username,
               password,
+              retypepassword,
               // expiresInMins: 60, // optional
             })
           })
@@ -14,6 +15,4 @@ export const signupUser = async (username, password) => {
           }
           return resp.json()        
     } 
-    
-    
     

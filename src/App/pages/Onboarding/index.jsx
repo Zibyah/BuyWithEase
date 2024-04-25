@@ -1,7 +1,7 @@
 import { Logo } from "../../components/Logo";
 import style from './style.module.css';
 import { CustomButton } from "../../components/Buttons";
-import React from "react";
+
 
 export const Onboarding = () => {
     return (

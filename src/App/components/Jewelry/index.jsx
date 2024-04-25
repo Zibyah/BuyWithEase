@@ -3,7 +3,7 @@ import { ReactComponent as FirstArrow } from "../../assets/Icons/doublepreviousa
 import { ReactComponent as NextArrow } from "../../assets/Icons/nextarrow.svg";
 import { ReactComponent as LastArrow } from "../../assets/Icons/lastarrow.svg";
 import { ReactComponent as PreviousArrow } from "../../assets/Icons/previousarrow.svg";
-import React from 'react';
+
 import { CustomButton } from '../Buttons';
 import { jewelriesProduct } from './product';
 import { Title } from './title';

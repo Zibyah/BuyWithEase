@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Logo } from '../Logo';
 import { HeaderNavigation } from './HeaderNavigation';
 import { ReactComponent as SettingIcon } from "../../assets/Icons/settingicon.svg";

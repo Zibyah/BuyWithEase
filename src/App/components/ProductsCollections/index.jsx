@@ -2,6 +2,7 @@ import { products } from './products';
 import style from './style.module.css';
 import { CustomButton } from '../Buttons';
 
+
 export const ProductsCollection = () => {
     return (
         <section className={style.collections}>

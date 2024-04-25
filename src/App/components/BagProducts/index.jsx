@@ -20,16 +20,17 @@ export const BagProductsList = () => {
         <div className={style.products}>
             {bagProduct.map((bagProduct) => (
                 <div>
-                    <div>
-                        <img className={style.Image} src={bagProduct.Image}/>
-        {
-            <div onClick={handleIconToggle} className={style.likeicon}>
+                    {
+            <div  className={style.likeicon}>
                 {
                 !show ? 
-                <button><EmptyLikeIcon /></button> : <button><FilledLikeIcon size={"1rem"} /> </button>}
-
+                <button onClick={handleIconToggle}><EmptyLikeIcon /></button> : <button><FilledLikeIcon size={"1rem"} /> </button>}
             </div>
         }
+                    
+                    <div>
+                        <img className={style.Image} src={bagProduct.Image}/>
+        
                     </div>
                     <div className={style.wrap}>
                         <div className={style.name}>

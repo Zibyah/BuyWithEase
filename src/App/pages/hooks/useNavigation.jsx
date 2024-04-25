@@ -1,17 +1,18 @@
 import React from "react";
 
-const getCurrentHash = () => {
-    return window.location.hash.replace('#', '')
+export const getCurrentHash = () => {
+    return window.location.hash.replace('#/', '').replace('#', '')
+}
+
+export const navigate = (path) => {
+    window.location.hash = '#/'+path
 }
 export const useNavigation = () => {
-    const [newURL, setState] = React.useState(getCurrentHash())
+    const [url, setState] = React.useState(getCurrentHash())
     window.addEventListener('hashchange', function (e) {
-        console.log('location changed!', e.newURL);
         const path = getCurrentHash()
         setState(path)
     });
-    const changeUrl = (path) => {
-        window.location.hash = '#/'+path
-    }
-    return [newURL, changeUrl]
+    return {url, navigate}
 }
+

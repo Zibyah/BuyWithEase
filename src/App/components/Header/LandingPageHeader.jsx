@@ -1,18 +1,10 @@
 import './LandingPageHeader.css'
-import React from 'react';
+
 // import {ReactComponent as Menuicon} from '../../assets/icons/menu.svg';
 import { HeaderNavigation } from './HeaderNavigation';
 import { CustomButton } from '../Buttons';
 import { Logo } from '../Logo';
 
-function useState(initialValue) {
-    let val = initialValue
-    function change(newValue) {
-        val = newValue
-    }
-
-    return [val, change]
-}
 export const LandingPageHeader = () => {
     // const [showMenu, setMenu] = React.useState(false);
 
