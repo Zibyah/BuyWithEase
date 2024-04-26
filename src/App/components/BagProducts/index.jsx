@@ -11,23 +11,23 @@ import { ReactComponent as EmptyLikeIcon } from "../../assets/Icons/blanklikeico
 import React from 'react';
 
 export const BagProductsList = () => {
-    const [show, setShow] = React.useState(false)
-    const handleIconToggle = () => {
-        setShow(!show)
-    }
+    // const [show, setShow] = React.useState(false)
+    // const handleIconToggle = () => {
+    //     setShow(!show)
+    // }
     return (<section className={style.list}>
         <Title />
         <div className={style.products}>
             {bagProduct.map((bagProduct) => (
                 <div>
-                    {
+                    {/* {
             <div  className={style.likeicon}>
                 {
                 !show ? 
                 <button onClick={handleIconToggle}><EmptyLikeIcon /></button> : <button><FilledLikeIcon size={"1rem"} /> </button>}
             </div>
         }
-                    
+                     */}
                     <div>
                         <img className={style.Image} src={bagProduct.Image}/>
         

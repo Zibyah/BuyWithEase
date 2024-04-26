@@ -2,23 +2,12 @@ import React from 'react';
 import '../App.css';
 import { Landing } from './Landing';
 import { Product } from './Products';
-import { Login } from './Login';
 
 export default function AllPages() {
-  const [loggedInUser, setLoggedInUser] = useState(null);
-  const handleLogin = (username) => {
-    setLoggedInUser(username);
-  };
-  const handleLogout = () => {
-    setLoggedInUser(null);
-  };
   return (
     <div>
-       {loggedInUser ? (
-        <Landing username={loggedInUser} onLogout={handleLogout} />
-      ) : (
-        <Login onLogin={handleLogin} />
-      )}
+      <Landing />
+      <Product />
     </div>
   )
 }

@@ -19,13 +19,13 @@
     gap: 16px;
 }
 
-.bagcollection {
-    padding: 0 var(--app-block-padding);
-}
-
 .image {
     width: 302px;
     height: 340px;
+    padding: var(--app-block-padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .products {
