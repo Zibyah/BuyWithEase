@@ -1,10 +1,10 @@
 
 import { Logo } from '../Logo';
-import { HeaderNavigation } from './HeaderNavigation';
 import { ReactComponent as SettingIcon } from "../../assets/Icons/settingicon.svg";
 import { ReactComponent as CartIcon } from "../../assets/Icons/cart.svg"; 
 import { ReactComponent as UserImgae } from "../../assets/Images/profile.svg";
 import { ReactComponent as DropdownIcon } from "../../assets/Icons/dropdown.svg";
+import { ProductNavigation } from './ProductNavigation';
 
 export const ProductPageHeader = () => {
     return (<header className='header'>
@@ -12,7 +12,7 @@ export const ProductPageHeader = () => {
             <Logo useWhite />
         </div>
         <div className='menu'>
-            <HeaderNavigation />
+            <ProductNavigation />
         </div>
         <div className='signedin'>
             <SettingIcon />
