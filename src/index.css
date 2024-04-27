@@ -17,3 +17,9 @@ code {
 :root {
   --app-block-padding: 150px;
 }
+
+@media (max-width: 769px) {
+  :root {
+    --app-block-padding: 30px;
+  }
+}
