@@ -7,7 +7,6 @@ export default function AllPages() {
   return (
     <div>
       <Landing />
-      <Product />
     </div>
   )
 }

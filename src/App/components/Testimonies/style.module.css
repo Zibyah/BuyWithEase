@@ -28,3 +28,12 @@
     padding: 0 var(--app-block-padding);
     align-items: center;
 }
+
+@media (max-width: 500px) {
+    .testimonies .title {
+        font-size: 20px;
+    }
+    .testimonies .description{
+        font-size: 14px;
+    } 
+}

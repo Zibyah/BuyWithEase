@@ -4,6 +4,8 @@
     justify-content: space-between;
     background-color: white;
     padding: 0 var(--app-block-padding);
+    height: 20px;
+    padding-top: 40px;
 }
 
 .logo {
@@ -64,4 +66,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:500px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu, .signup, .signup {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        right: 0px;
+        padding-left: 20px;
+        top: 80px;
+        background-color: black;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        height: 10px;
+        margin-bottom: 0;
+        padding-top: 40px;
+    }
+    
+    .menu ul {
+        display: none;
+        padding: 0;
+    }
+
+    .menu ul.mobile, .signup {
+        display: block;
+    }
+    
+    .menu ul li {
+    padding: 10px 0;
+}
+
+.menu li.hidden-mobile, .signup, .login {
+    display: none;
+}
 }
