@@ -1,7 +1,7 @@
 import { ProductPageHeader } from "../../components/Header/ProductPageHeader";
 import style from './style.module.css';
 import {ReactComponent as SearchIcon} from "../../assets/Icons/search.svg";
-import { CustomButton } from "../../..components/Buttons";
+import { CustomButton } from "../../components/Buttons";
 import { BagProductsList } from "../../components/BagProducts";
 import { ClothProductsList } from "../../components/ClothesProduct";
 import { JewelryProducts } from "../../components/Jewelry";

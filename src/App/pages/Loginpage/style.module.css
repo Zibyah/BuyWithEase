@@ -83,8 +83,10 @@
     height: 56px;
 }   
 
-.loginbutton {
+.buttonlogin {
     gap: 0;
+    width: 486px;
+    height: 56px;
 }
 
 .login .FacebookLogo, .GoogleLogo {
@@ -126,4 +128,36 @@
     text-decoration: none;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 500;
+}
+
+@media (max-width:500px) {
+    .login {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left .image {
+        display: none;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+    
+    .title .handicon {
+        width: 25px;
+    }
+    .login .bodytext p {
+        font-size: 16px;
+    }
+    .buttonlogin {
+        width: 300px;
+        height: 56px;
+    } 
+    .divider {
+        width: 60%;
+    }
+    .login .facebook, .login .google {
+        width: 300px;
+    }
 }
