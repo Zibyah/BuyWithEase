@@ -15,7 +15,7 @@ code {
 }
 
 :root {
-  --app-block-padding: 150px;
+  --app-block-padding: 6rem;
 }
 
 @media (max-width: 769px) {
