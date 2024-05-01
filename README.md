@@ -1,5 +1,5 @@
 **HOSTING LINK**
-[BUY WITH EASE](https://buywithease2.onrender.com)
+[https://buywithease2.onrender.com)](https://buywithease2.onrender.com)
 
 # Getting Started with Create React App
 
