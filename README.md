@@ -1,5 +1,5 @@
 **HOSTING LINK**
-https://snazzy-mooncake-c38038.netlify.app/
+[BUY WITH EASE](https://buywithease2.onrender.com)
 
 # Getting Started with Create React App
 
