@@ -1,6 +1,6 @@
 **HOSTING LINK**
 
-[https://buywithease2.onrender.com)](https://buywithease2.onrender.com)
+[https://buywithease2.onrender.com)](https://buywithease2.vercel.app/)
 
 # Getting Started with Create React App
 
