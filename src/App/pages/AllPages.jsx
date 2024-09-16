@@ -1,12 +1,14 @@
-import '../App.css'
-import { HeaderNavigation } from '../components/Header/HeaderNavigation';
+import React from 'react';
+import '../App.css';
+import { Landing } from './Landing';
+import { Product } from './Products';
 
 export default function AllPages() {
   return (
     <div>
-      <HeaderNavigation />
+      <Landing />
     </div>
-  );
+  )
 }
 
 // If you want to start measuring performance in your app, pass a function

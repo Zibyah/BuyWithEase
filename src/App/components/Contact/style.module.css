@@ -1,0 +1,44 @@
+.form {
+    padding: 0 var(--app-block-padding);
+}
+
+.form h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 40px;
+    text-align: center;
+}
+
+.name {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 30vh;
+}
+
+.form-field .message, .message2 {
+    width: 1280px;
+    height: 106px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1.3px #878787;
+    border: #878787;
+    text-align: justify;
+    margin-top: 0;
+    display: block;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.message2 {
+    height: 78px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.input-label {
+    padding-top: 30px;
+}

@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 80px;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin-top: 4rem;
+  gap: 4px;
+}
+
+.divider {
+  height: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #D9DADC;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+.divider span {
+  background-color: #F2E7FE;
+  padding: 5px 20px;
+  color: #000;
+}
+
+.Signup {
+  background-color: #30009C;
+  width: 486px;
+  height: 55px;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: none;
+  margin-left: 200px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.signupbtn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook {
+  gap: 8px;
+}
+
+.google {
+  gap: 8px;
+}

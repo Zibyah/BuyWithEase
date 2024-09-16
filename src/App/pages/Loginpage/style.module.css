@@ -1,0 +1,163 @@
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.login .left {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.login .bodytext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.login .bodytext p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.login .image {
+    width: 622px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: -60px;
+}
+
+.login h1 {
+    margin-top: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.login .title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.rememberbox {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 70px;
+}
+
+.inputbox {
+    width: 24px;
+}
+
+.rememberbox input:checked {
+    accent-color: #30009C;
+}
+
+.rememberbox .label {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 8px;
+}
+
+.signup {
+    margin-top: 80px;
+}
+
+.login .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .facebook, .google, .loginbutton {
+    gap: 10px;
+    width: 486px;
+    height: 56px;
+}   
+
+.buttonlogin {
+    gap: 0;
+    width: 486px;
+    height: 56px;
+}
+
+.login .FacebookLogo, .GoogleLogo {
+    width: 20px;
+}
+
+.login .facebook, .google:hover {
+    transform: scale(1.02);
+}
+
+.divider {
+    text-align: center;
+    height: 0px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 0;
+    border-top: 1px solid #A3A3A3;
+    font-weight: 700;
+}
+
+.divider span {
+    background-color: white;
+    padding: 5px 15px;
+}
+
+.login .input-label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login .password-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .button a {
+    padding-top: 15px;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+}
+
+@media (max-width:500px) {
+    .login {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left .image {
+        display: none;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+    
+    .title .handicon {
+        width: 25px;
+    }
+    .login .bodytext p {
+        font-size: 16px;
+    }
+    .buttonlogin {
+        width: 300px;
+        height: 56px;
+    } 
+    .divider {
+        width: 60%;
+    }
+    .login .facebook, .login .google {
+        width: 300px;
+    }
+}

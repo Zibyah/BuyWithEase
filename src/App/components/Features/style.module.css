@@ -1,0 +1,69 @@
+.wrapper {
+    background-color: #F2E7FE;
+    padding: var(--app-block-padding);
+    padding-bottom: 0;
+    padding-top: 6rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h2, h3 {
+    color: #30009C;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.text h3 {
+    font-size: 36px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.text p {
+    font-size: 16px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 45px;
+}
+
+.image .imageone {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+
+.image .imagetwo {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.image .imagethree {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.text .button {
+    width: 200px;
+    height: 48px;
+    border: 0;
+    margin-bottom: 4rem;
+}
+
+.text .button:hover {
+    border: 1px solid #30009C;
+}

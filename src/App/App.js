@@ -1,13 +1,16 @@
+import { RoutesPage } from '../router';
 import './App.css';
 import AllPages from './pages/AllPages';
-import { Login } from './pages/Login';
-
 
 export function App() {
+    const isLogin = new URLSearchParams(window.location.search)
+    if (isLogin.get('status') === 'home') {
+      return (<AllPages />)
+    }
+    
   return (
     <div>
-      <AllPages />
-      <Login />
+      <RoutesPage />
     </div>
   );
 }

@@ -1,0 +1,17 @@
+.input {
+    display: block;
+    width: 436px;
+ }
+
+ .input .input-field {
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 0 0 1.3px #878787;
+    width: 612px;
+    height: 48px;
+    background-color: white;
+    padding-left: 18px;
+    border: none;
+    position: relative;
+    font-family: 'Roboto';
+}

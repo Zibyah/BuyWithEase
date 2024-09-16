@@ -1,0 +1,34 @@
+.input {
+    display: block;
+    width: 436px;
+ }
+
+.input .input-field {
+    border-radius: 4px;
+    display: block;
+    box-shadow: 0 0 0 1.3px #878787;
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    padding-left: 18px;
+    border: none;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.icon {
+    position: absolute;
+    top: 47%;
+    right: 7%;
+}
+
+@media (max-width:500px) {
+    .input {
+        width: 300px;
+    }
+
+    .icon {
+        top: 68%;
+        left: 110%;
+    }
+}

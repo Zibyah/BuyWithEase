@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper .title, .benefits .heading {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.wrapper .benefits {
+    display: flex;
+    padding: 0 var(--app-block-padding);
+    gap: 64px;
+    padding-top: 20px;
+}
+
+.benefits .Image {
+  width: 60px;
+}
+
+.benefits .heading {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.benefits .description {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}

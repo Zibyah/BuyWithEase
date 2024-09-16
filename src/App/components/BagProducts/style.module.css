@@ -1,0 +1,97 @@
+.title {
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.sortby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.image {
+    width: 302px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-gap: 20px;
+    padding: 0 var(--app-block-padding);
+    padding-bottom: 40px;
+}
+
+.heading, .description {
+    font-family: "Roboto";
+    font-size: 14px;
+    padding: 0;
+}
+
+.heading {
+    line-height: 25px;
+}
+
+.likeicon {
+    position: relative;
+    bottom: 10%;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.button {
+    width: 302px;
+    height: 50px;
+}
+
+.amount .money {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.rating {
+    width: 75px;
+}
+
+.direction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.direction .number{
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans";
+    display: flex;
+    gap: 20px;
+}
+
+.direction .next {
+    color: #CED2D6;
+}
